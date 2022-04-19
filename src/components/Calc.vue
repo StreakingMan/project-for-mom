@@ -115,7 +115,8 @@ export default {
     right: 0;
     bottom: -50px;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.45;
+    z-index: -1;
   }
 
 }
