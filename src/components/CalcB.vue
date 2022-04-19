@@ -54,6 +54,8 @@ export default {
 .calcB {
   font-size: 24px;
   text-align: left;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .input {
@@ -94,11 +96,11 @@ export default {
 
       &.active {
         opacity: 1;
-        transform: translateY(230%);
+        transform: translateY(80px);
       }
 
       &-2.active {
-        transform: translateY(320%);
+        transform: translateY(110px);
       }
     }
   }
