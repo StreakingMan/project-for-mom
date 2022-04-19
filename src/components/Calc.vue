@@ -13,6 +13,7 @@
     </div>
     <div class="calcing" :style="{transform: `translateX(${76*calcWhich}px)`}"></div>
     <p class="tips">使用方法:点击想要计算的项目文字，点击其他两个上面的输入框输入数字后，红色区域显示结果</p>
+    <img class="avatar" src="../assets/avatar_mom.png" alt="">
   </div>
 </template>
 
@@ -107,6 +108,14 @@ export default {
   .tips {
     font-size: 14px;
     text-align: left;
+  }
+
+  .avatar {
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    width: 100%;
+    opacity: 0.5;
   }
 
 }
