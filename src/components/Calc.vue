@@ -12,7 +12,7 @@
       ÷ 4 x 2 x 2.54
     </div>
     <div class="calcing" :style="{transform: `translateX(${76*calcWhich}px)`}"></div>
-    <p class="tips">使用方法:点击想要计算的项目，输入其他两个</p>
+    <p class="tips">使用方法:点击想要计算的项目文字，点击其他两个上面的输入框输入数字后，红色区域显示结果</p>
   </div>
 </template>
 
