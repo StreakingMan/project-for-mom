@@ -1,11 +1,13 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import Calc from "./components/Calc.vue";
+import CalcA from "./components/CalcA.vue";
+import CalcB from "./components/CalcB.vue";
 </script>
 
 <template>
-  <Calc />
+  <CalcA />
+  <CalcB style="margin-top: 48px"/>
 </template>
 
 <style>

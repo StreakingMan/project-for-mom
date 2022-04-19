@@ -1,5 +1,5 @@
 <template>
-  <div class="calc">
+  <div class="calcA">
     <div class="input">
       <input v-model.number="kouchang" :disabled="calcWhich===0">
       <input v-model.number="toufen" :disabled="calcWhich===1">
@@ -60,7 +60,7 @@ export default {
 
 <style scoped lang="scss">
 
-.calc {
+.calcA {
   font-size: 24px;
   width: fit-content;
   margin: 0 auto;
